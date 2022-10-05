@@ -15,6 +15,8 @@ start_date=input('')
 print("請輸入截止日期 YYYY-MM-DD")
 end_date=input('')
 
+print("請稍後...")
+
 #下載資料
 df=yf.download(stock_no,start=start_date)
 
