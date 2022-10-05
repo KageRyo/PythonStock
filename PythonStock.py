@@ -37,7 +37,7 @@ figure = go.Figure(
 )
 
 figure.update_layout(
-    title=stock_no+" K線",
+    title=stock_no+" K線（綠漲紅跌）",
     xaxis_title='Date',
     yaxis_title='Price',
 )
