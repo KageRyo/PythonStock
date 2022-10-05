@@ -5,7 +5,15 @@
 + Python
   
 套件：
-+ yfinance
+```
+$pip install matplotlib
+```
+```
+$pip install plotly
+```
+```
+$pip install yfinance
+```
   
 支援：
 + 台股
