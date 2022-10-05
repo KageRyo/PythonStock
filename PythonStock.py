@@ -9,7 +9,7 @@ plt.style.use('fivethirtyeight')
 print("請輸入股票代號，台股請加 .TW")
 stock_no=input('')
 
-#起始日期
+#起訖日期
 print("請輸入起始日期 YYYY-MM-DD")
 start_date=input('')
 print("請輸入截止日期 YYYY-MM-DD")
@@ -31,7 +31,7 @@ figure = go.Figure(
             high=df['High'],    # 高
             low=df['Low'],      # 低
             close=df['Close'],  # 收
-            # 綠漲紅跌
+            #綠漲紅跌（如果你習慣紅漲綠跌可以調換下面的顏色）
             increasing_line_color='green',
             decreasing_line_color='red'
         )
@@ -44,5 +44,5 @@ figure.update_layout(
     yaxis_title='Price',
 )
 
-# 秀圖
+#顯示圖片
 figure.show()
